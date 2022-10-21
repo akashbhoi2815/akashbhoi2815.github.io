@@ -1,0 +1,133 @@
+.projectMain{
+ width: 80%;
+ margin: auto;
+
+
+}
+.pageHeadingP{
+    font-size: 50px;
+    /* font-weight: 600; */
+    /* margin: 0px 0px 50px 0px; */
+}
+.projectCardDiv{
+    
+    display: grid;
+    box-shadow: 0px 2px 2px 0px rgb(200, 199, 199);
+    padding: 30px 10px;
+    grid-template-columns: 50% 50%;
+}
+.secProject{
+    margin-top: 30px;
+}
+.secProjectImg img {
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.projectDetail{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.projectDetail a{
+    cursor:pointer;
+    /* background-color: #FDDB34; */
+    width: 33px;
+
+}
+.projectDetail a:hover{
+    cursor:pointer;
+}
+.links{
+    display: flex;
+    column-gap: 5%;
+}
+.langDiv{
+    text-align: center;
+
+}
+.langDiv > button{
+    cursor:default;
+    width: 100px;
+    margin: 4px 4px;
+    background-color: #346be4;
+    color: #fff;
+    border-radius: 7px;
+}
+.techstack{
+    text-align: left;
+    margin-top: 10px;
+}
+.texttackDiv {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+.projectDetail button{
+    padding: 0px;
+    background-color: darkgray;
+    border-radius: 8px;  
+}
+.projectImg{
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.projectImg img{
+    width: 75%;
+    height:300px;
+    border: 1px solid darkgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.projectImg:hover{
+    transform:scale(1.07) ;
+    transition: 1s ease-out;
+}
+/* @media screen and (max-width:1020px) {
+    .texttackDiv{
+        display: grid;
+        grid-template-columns: 27% 20%;
+        grid-gap: 5px;
+    }
+} */
+@media screen and (max-width:910px) {
+    .pageHeadingP{
+        margin: 40px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:810px) {
+    .projectMain{
+        margin-bottom: 100px;
+    }
+    .projectCardDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .pageHeadingP{
+        margin: 40px 0px 0px 0px;
+    }
+    .projectImg{
+        margin-top: 20px;
+    }
+    .projectImg img{
+        width: 100%;
+        height:100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .secProjectImg img {
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:390px) {
+    .secProjectImg img{
+        width: 100%;
+        height: 200px;
+    }
+}

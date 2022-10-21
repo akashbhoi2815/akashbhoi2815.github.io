@@ -1,0 +1,229 @@
+.profile-container{
+    text-align: center;
+    justify-content: center;
+    min-height: fit-content;
+    /* background-color: #2C272E; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .myNav{
+   background-color: #2C272E;
+   border: none; 
+   color: #ffffff;
+   font-size: 14.5px;
+   width: 100%;
+}
+ .menu-content{
+   color: #ffffff;
+   padding: 7px 7px;
+   font-size: 14.5px;
+   margin: 0px;
+   /* box-shadow: 0 1px 1px 1px #ffffff; */
+} 
+.menu-content:hover{
+    color: #ffffff;
+    margin: 0px;
+    padding: 7px 7px;
+    background-color:#111146;
+ }
+.profile-parent{
+    display: flex;
+    align-items: center;
+    /* color: whitesmoke; */
+}
+.profile-details-name{
+    font-size: 56px;
+
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0px 24px 0px;
+}
+.profile-details-name {
+    font-weight: bold;
+    font-size: 48px;
+}
+.primary-text{
+    color:whitesmoke;
+    font-weight: bold;
+}
+.highlighted-text{
+    color: #FDDB34;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+}
+.profile-option{
+    justify-content: center;
+}
+ .getResumeBtn{
+    padding: 10px 15px;
+    margin: 0 0 0 28px;
+    background-color: #FDDB34;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+ .getResumeBtn:hover{
+    background-color: #111146;
+    color: #ffffff;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #52575D;
+    border-radius: 50%;
+    height: 390px;
+    width: 390px;
+    margin: 0 0 0 20%;
+}
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+}
+.profile-picture-background img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.profile-picture-background:hover{
+    transform:scale(1.07) ;
+    transition: 1s ease-out;
+}
+.colz .colz-icon{
+    color: white;
+    padding-left: 0px;
+}
+.social-media-icon{
+    color: #52575D;
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
+}
+.colz .colz-icon .social-media-icon:hover{
+    transform: scale(1.5);
+}
+@media screen and (max-width:1100px) {
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 36px;
+    }
+    .highlighted-text{
+        font-size: 36px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px
+    }
+    .profile-option{
+        justify-content: center;
+    }
+    .profile-option .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }   
+}
+@media screen and (max-width:910px) {
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+    .getResumeBtn{
+        width: 150px;
+        margin-left: -5%;
+    }
+    .profile-details-name{
+        font-size: 36px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 36px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
+     .profile-picture{
+         padding-top: 0px !important;
+         margin-top:-100px !important ;
+     }
+   
+}
+@media screen and (max-width:810px) {
+    /* .profile-picture{
+        margin: 0 !important;
+    } */
+    .profile-parent{
+        flex-direction: column-reverse;
+        }
+    .profile-option{
+        display: flex;
+        justify-content: center;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    .profile-details-name{
+        font-size: 32px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 32px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .typicalText{
+        font-size: 24px;
+    }
+    .profile-details-name, .profile-details-role{
+        text-align: center;
+    }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
+}
+@media screen and (max-width:375px) {
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+    .navBar-bg{
+        background-color: #757575;
+        border: none; 
+        padding: 0px !important;
+     }
+     .profile-details-name{
+        font-size: 24px;
+    }
+    .highlighted-text{
+        width: 100%;
+        font-size: 24px;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .typicalText{
+        font-size: 20px;
+    }
+  
+}

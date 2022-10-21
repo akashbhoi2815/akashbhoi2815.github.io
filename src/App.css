@@ -1,0 +1,53 @@
+.App{
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+ html{
+  scroll-behavior: smooth;
+}
+
+#home{
+  height: auto;
+}
+#about{
+  height: auto;
+}
+#resume{
+  height: auto;
+}
+#project{
+  height: auto;
+}
+#contact{
+  height: auto;
+}
+
+.footer{
+color: #eee !important;
+background-color: #757575 !important;
+}
+
+@media screen and (max-width:910px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  #home{
+    height: auto;
+  }
+  #about{
+    height: auto;
+  }
+  #resume{
+    height: auto;
+  }
+  #project{
+    height: auto;
+  }
+  #contact{
+    height: auto;
+  }
+}

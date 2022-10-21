@@ -1,0 +1,128 @@
+.c{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.c-bg{
+    width: 20px;
+    /* height: 100%; */
+    background: color #59b256 ;
+    position:absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+    box-shadow: 0px 1px 2px 0px rgb(200, 199, 199);
+    padding: 30px 10px;
+}
+.c-left
+{
+    flex: 1;
+    margin-left: 4%;
+}
+.c-right{
+    flex: 1;
+    display: flex;
+    margin-right: 4%;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: left;
+}
+.c-title{
+    font-size: 50px;
+    width: 80%;
+}
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+/* .c-info-item .socialmedia{
+    
+} */
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.c-desc{
+    text-align: center;
+    font-weight: 200;
+}
+form{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px ;
+    font-size: 14px;
+    outline: none;
+    border-radius: 6px;
+    padding-left:10px ;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px ;
+    font-size: 14px;
+    border-radius: 6px;
+    padding-left:10px ;
+
+}
+.submitBtn{
+    border: none;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    border: none;
+    padding: 15px;
+    background-color: #111146;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+}
+@media screen and (max-width:910px) {
+    .c-title{
+        padding-top: 20px;
+    }
+    .c{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .c{
+        margin-top: -100px !important;
+        width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+    .c-wrapper{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .c-info-item{
+        /* width: 80%; */
+        font-size: 12.5px;
+    }
+}

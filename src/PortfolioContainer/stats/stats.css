@@ -1,0 +1,11 @@
+.heading{
+    margin: auto;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    margin:10px ;
+}
