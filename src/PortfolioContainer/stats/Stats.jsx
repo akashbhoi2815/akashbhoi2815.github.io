@@ -4,7 +4,7 @@ import './stats.css'
 
 const Stats = () => {
   return (
-    <div>
+    <div className='main'>
       <h1 className='heading'>Statistic</h1>
       <br />
         <img className='image' src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashbhoi2815&layout=compact&show_icons=true&title_color=0087ca&icon_color=0087ca&border_radius=10&hide_border=ture&text_color=808080" alt="" />

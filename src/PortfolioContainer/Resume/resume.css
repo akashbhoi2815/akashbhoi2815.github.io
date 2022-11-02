@@ -124,6 +124,7 @@
     .skillcardMain{
         display: grid;
         grid-template-columns: 40% 40%;
+        gap: 20px;
     }
    
 }

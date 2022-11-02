@@ -5,6 +5,7 @@
     /* background-color: #2C272E; */
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
  .myNav{
    background-color: #2C272E;
@@ -27,6 +28,7 @@
     background-color:#111146;
  }
 .profile-parent{
+   
     display: flex;
     align-items: center;
     /* color: whitesmoke; */
@@ -36,6 +38,7 @@
 
 }
 .profile-details-role{
+    
     display: flex;
     flex-direction: column;
     margin: 14px 0px 24px 0px;
@@ -113,6 +116,9 @@
 .colz .colz-icon .social-media-icon:hover{
     transform: scale(1.5);
 }
+.a-tag{
+    text-decoration: none;
+}
 @media screen and (max-width:1100px) {
     .profile-picture{
         margin: 0 0px 0 80px;
@@ -133,7 +139,8 @@
         width: 120px;
         padding: 11px 0;
         z-index: 700;
-    }   
+    } 
+
 }
 @media screen and (max-width:910px) {
     .profile-picture{
@@ -198,6 +205,15 @@
         background-color: #757575;
         border: none; 
         padding: 0px !important;
+     }
+     .myNav{
+        background-color: #2C272E;
+        border: none; 
+        color: #ffffff;
+        font-size: 14.5px;
+        width: 100%;
+        overflow: visible;
+        margin-bottom: 50px;
      }
 }
 @media screen and (max-width:375px) {

@@ -17,6 +17,7 @@ export default function Contact() {
             .then((result) => {
                 console.log(result.text);
                 setDone(true)
+                alert("Submitted")
             }, (error) => {
                 console.log(error.text);
             });
@@ -58,9 +59,9 @@ export default function Contact() {
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" required/>
                         <input type="text" placeholder="Subject" name="user_subject" required/>
-                        <input type="text" placeholder="Email" name="user_email" required/>
+                        <input type="email" placeholder="Email" name="user_email" required/>
                         <textarea name="message" placeholder="Message" rows="5" required></textarea>
-                        <button className="submitBtn">Submit</button>
+                        <input className="submitBtn" type={"submit"} value="Submit"/>
                         {done && "Thank You"}
                     </form>
                 </div>
