@@ -19,6 +19,7 @@
 .aboutmeTextDiv{
     /* padding: 25px; */
     text-align: left;
+    margin: auto;
 }
 .aboutme{
     margin-left: 2%;
@@ -78,7 +79,7 @@
 }
 @media screen and (max-width:1100px) {
     .containerDiv{
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 2% 10%;
         /* display: flex; */
@@ -88,7 +89,7 @@
 }
 @media screen and (max-width:910px) {
     .containerDiv{
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 2% 10%;
         /* display: flex; */

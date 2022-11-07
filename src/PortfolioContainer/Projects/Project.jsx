@@ -52,10 +52,10 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="projectImg secProjectImg">
+                    <div className="projectImg">
                         <img src=".././images/jefit.png" alt="" />
                     </div>
-                </div>
+                </div> 
                 <div className="projectCardDiv secProject">
                     <div className="projectDetail">
                         <h3>Nature_Basket Clone</h3>
@@ -76,6 +76,27 @@ export const Project = () => {
                     </div>
                     <div className="projectImg">
                         <img src=".././images/nature_basket.png" alt="" />
+                    </div>
+                </div>
+                <div className="projectCardDiv secProject">
+                    <div className="projectDetail">
+                        <h3>Stylecraze Clone</h3>
+                        <p>Stylecrazewebsite is a women's beauty and health tips website. Here you can get tips related to beauty and health.</p>
+                        <div className="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/srbhkumar624/stylecrazewebsite"><FaGithubSquare className='social-media-icon' /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://srbhkumar624.github.io/stylecrazewebsite/"><FaLink className='social-media-icon' /></a>
+                        </div>
+                        <div className="langDiv">
+                            <p className="techstack">Tech Stack :</p>
+                            <div className="texttackDiv">
+                                <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="" />
+                                <img src="https://img.shields.io/badge/css3-323330?style=for-the-badge&logo=css3&logoColor=blue" alt="" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projectImg">
+                        <img src=".././images/stylecraze.png" alt="" />
                     </div>
                 </div>
             </div>

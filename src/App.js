@@ -10,6 +10,7 @@ import Toggle from './PortfolioContainer/toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Stats from './PortfolioContainer/stats/Stats';
+import Calender from './PortfolioContainer/stats/Calender';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -30,6 +31,7 @@ function App() {
         <Contact />
         <Card body className="footer">© 2022 Akash Bhoi
         </Card>
+        
       </div>
     </>
   );

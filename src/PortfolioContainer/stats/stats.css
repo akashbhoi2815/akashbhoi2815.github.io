@@ -1,7 +1,7 @@
 .heading{
     margin: auto;
     font-size: 50px;
-    font-weight: 600;
+   
 }
 
 .image{
@@ -19,6 +19,7 @@
     .main{
         width: 50%;
         margin: auto;
+        padding: 20px;
     }
     
 }
@@ -26,11 +27,14 @@
     .main{
         width: 100%;
         margin: auto;
+        padding: 20px;
     }
 }
 @media screen and (max-width:810px) {
     .main{
         width: 100%;
         margin: auto;
+        padding: 20px;
     }
+     
 }

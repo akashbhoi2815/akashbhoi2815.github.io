@@ -13,7 +13,7 @@ export default function AboutMe() {
                     <p className="aboutme">
                         I have diverse set of skills ranging from HTML, CSS, JavaScript,
                         ReactJs to ExpressJs, MongoDB, NodeJs</p>
-                    <ul>
+                    <ul> 
                         <li>I have worked on several different projects solo as well as collaboratively</li>
                         <li>Passionate about implementing and launching new projects</li>
                         <li>Ability to translate business requirements into technical solutions</li>

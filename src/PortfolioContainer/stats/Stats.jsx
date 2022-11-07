@@ -16,9 +16,9 @@ const Stats = () => {
             <br />  
             <h1 className='heading'>Github Calender</h1>
             <br />
-        <img className='image' src={pic1} alt="" />
+        <img className='image' src="https://ghchart.rshah.org/akashbhoi2815" alt="" />
     </div>
   )
-}
+} 
 
 export default Stats
