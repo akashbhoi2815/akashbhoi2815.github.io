@@ -5,7 +5,7 @@
     /* background-color: #2C272E; */
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    /* width: 100vw; */
     
 }
 
@@ -14,7 +14,7 @@
    border: none; 
    color: #ffffff;
    font-size: 14.5px;
-   width: 100vw;
+   width: 100%;
 }
  .menu-content{
    color: #ffffff;
@@ -219,7 +219,7 @@
         border: none; 
         color: #ffffff;
         font-size: 14.5px;
-        width: 100vw;
+        width: 100%;
         position: fixed;
         top: 0;
         overflow: visible;

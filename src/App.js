@@ -22,10 +22,7 @@ function App() {
           backgroundColor: darkMode ? "#1F1301" : "#f3f2ef",
           color: darkMode && "whitesmoke",
         }}>
-          <div style={{
-            width:"100%"
-        }}>
-        <Toggle />
+        {/* <Toggle /> */}
         <Profile />
         <AboutMe />
         <Resume />
@@ -34,7 +31,7 @@ function App() {
         <Contact />
         <Card body className="footer">© 2022 Akash Bhoi
         </Card>
-        </div>
+        
       </div>
     </>
   );

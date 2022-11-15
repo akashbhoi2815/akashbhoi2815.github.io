@@ -11,10 +11,10 @@
 }
 
 .main{
-    width: 100%;
+    width: 100vw;
     margin: auto;
 }
-.img-div{
+.img_div{
    width: 50%;
    height: 200px;
 }
@@ -29,7 +29,7 @@
         height: auto;
         margin:10px ;
     }
-    .img-div{
+    .img_div{
         width: 100%;
         height: 200px;
      }
@@ -46,7 +46,7 @@
         height: auto;
         margin:10px ;
     }
-    .img-div{
+    .img_div{
         width: 100%;
         height: 150px;
      }
@@ -62,7 +62,7 @@
         height: auto;
         margin:10px ;
     }
-    .img-div{
+    .img_div{
         width: 100%;
         height: 100px;
      }
