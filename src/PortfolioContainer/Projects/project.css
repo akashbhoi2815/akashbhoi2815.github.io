@@ -156,4 +156,13 @@
         width: 100%;
         height: 200px;
     }
+    .pageHeadingP{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width:425px) {
+    .pageHeadingP{
+        font-size: 40px;
+    }
+     
 }

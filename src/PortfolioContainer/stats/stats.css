@@ -5,17 +5,17 @@
 }
 
 .image{
-    width: 100%;
+    width: 50%;
     height: auto;
     margin:10px ;
 }
 
 .main{
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 .img-div{
-   width: 100%;
+   width: 50%;
    height: 200px;
 }
 @media screen and (max-width:1100px) {
@@ -67,4 +67,16 @@
         height: 100px;
      }
      
+}
+
+@media screen and (min-width:425px) {
+    .heading{
+        font-size: 40px;
+    }
+    .main{
+        
+        width: 100%;
+         margin-bottom: 70px;
+         margin-top: -130px;
+    }
 }

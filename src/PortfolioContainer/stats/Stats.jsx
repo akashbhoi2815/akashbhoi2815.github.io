@@ -1,4 +1,5 @@
 import React from 'react'
+import Calender from './Calender';
 import pic1 from './image/contributions.png';
 import './stats.css'
 
@@ -17,8 +18,9 @@ const Stats = () => {
             <br />  
             <h1 className='heading'>Github Calender</h1>
             <br />
-            <div className=''>
-            <img className='img-div' src="https://ghchart.rshah.org/akashbhoi2815" alt="" />
+            <div style={{width:"80%",margin:"auto"}}>
+              {/* <Calender/> */}
+            <img className='img-div' style={{width:"100%"}} src="https://ghchart.rshah.org/akashbhoi2815" alt="" />
             </div>
         
     </div>

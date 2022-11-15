@@ -108,3 +108,9 @@
         height: 300px;
     }
 }
+@media screen and (min-width:425px) {
+    .pageHeadingA{
+        font-size: 40px;
+    }
+     
+}

@@ -112,9 +112,9 @@
     .educationQual{
         margin-bottom: -100px;
     }
-    .mainDiv{
-        /* margin-top: -120px !important; */
-    }
+    /* .mainDiv{
+        margin-top: -120px !important;
+    } */
     .present{
         grid-gap: 2%;
     }
@@ -127,4 +127,10 @@
         gap: 20px;
     }
    
+}
+@media screen and (min-width:425px) {
+    .pageHeadings{
+        font-size: 40px;
+    }
+     
 }
