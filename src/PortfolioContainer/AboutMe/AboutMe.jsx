@@ -11,7 +11,7 @@ export default function AboutMe() {
 
                 <div className='aboutmeTextDiv'>
                     <p className="aboutme">
-                        I have diverse set of skills ranging from HTML, CSS, JavaScript,
+                        I have deserve set of skills ranging from HTML, CSS, JavaScript,
                         ReactJs to ExpressJs, MongoDB, NodeJs</p>
                     <ul> 
                         <li>I have worked on several different projects solo as well as collaboratively</li>
@@ -28,7 +28,7 @@ export default function AboutMe() {
                     </div>
                     <div className='aboutBtnDiv'>
                         {/* <button className='hireMeBtn'>Hire Me</button> */}
-                        <a href="Akash_Bhoi_Resume.pdf" download='resume.pdf'>
+                        <a href="Akash_Bhoi_Resume.pdf" download='Akash_Bhoi_Resume.pdf'>
                             <button className="getBtn">Get Resume</button>
                         </a>
                     </div>

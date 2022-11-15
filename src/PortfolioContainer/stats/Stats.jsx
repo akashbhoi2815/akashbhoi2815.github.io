@@ -13,10 +13,14 @@ const Stats = () => {
         <img className='image' src="https://github-readme-stats.vercel.app/api?username=akashbhoi2815&show_icons=true&title_color=0087ca&icon_color=0087ca&border_radius=10&hide_border=ture&text_color=808080" alt="" />
             <br />
             <br />
+            <img className='image' src="https://github-readme-streak-stats.herokuapp.com/?user=akashbhoi2815&hide_border=true" alt="" />
             <br />  
             <h1 className='heading'>Github Calender</h1>
             <br />
-        <img className='image' src="https://ghchart.rshah.org/akashbhoi2815" alt="" />
+            <div className=''>
+            <img className='img-div' src="https://ghchart.rshah.org/akashbhoi2815" alt="" />
+            </div>
+        
     </div>
   )
 } 

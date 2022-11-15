@@ -13,10 +13,13 @@ export default function Profile() {
             <div
               className="col-md-12"
               style={{
-                margin: "0px",
+                margin: "auto",
                 padding: "0px",
                 position: "fixed",
-                top: "0px",
+                zIndex: 100,
+                top:0,
+                
+
               }}
             >
               <Navbar expand="lg" className="myNav">
@@ -28,7 +31,7 @@ export default function Profile() {
                     aria-controls="basic-navbar-nav"
                     style={{ background: "whitesmoke" }}
                   />
-                  <Navbar.Collapse id="basic-navbar-nav">
+                  <Navbar.Collapse id="basic-navbar-nav" style={{}}>
                     <Nav className="me-2 mx-auto  my-md-0 mr-md-3">
                       <Nav.Link href="#home">
                         <p className="menu-content">HOME</p>
@@ -47,7 +50,7 @@ export default function Profile() {
                       </Nav.Link>
                       <Nav.Link href="#resume">
                        
-                          <a href="Akash_Bhoi_Resume.pdf" download="resume.pdf" className="a-tag">
+                          <a href="Akash_Bhoi_Resume.pdf" download="Akash_Bhoi_Resume.pdf" className="a-tag">
                           <p className="menu-content">
                             RESUME
                               </p>
@@ -58,9 +61,9 @@ export default function Profile() {
                   </Navbar.Collapse>
                 </Container>
               </Navbar>
-            </div>
+            </div> 
           </div>
-          <div className="row p-5 " style={{marginTop:"75px"}}>
+          <div className="row p-5 " style={{marginTop:"75px",width:"100%"}}>
             <div className="profile-parent col-md-12 mt-0 mb-5 p-5" style={{justifyContent:"center"}}>
               <div className="profile-details">
                 <div className="colz">
