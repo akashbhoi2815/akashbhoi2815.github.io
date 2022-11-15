@@ -29,7 +29,7 @@ export default function Profile() {
                   </Navbar.Brand>
                   <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
-                    style={{ background: "whitesmoke" ,marginRight:"25px"}}
+                    style={{ background: "whitesmoke" ,marginRight:"-21px"}}
                   />
                   <Navbar.Collapse id="basic-navbar-nav" style={{}}>
                     <Nav className="me-2 mx-auto  my-md-0 mr-md-3">
