@@ -11,7 +11,7 @@ export default function Profile() {
         <div className="profile-container col-md-12" id="home">
           <div className="row  ">
             <div
-              className="col-md-12"
+              className="col-md-nav-12"
               style={{
                 margin: "auto",
                 padding: "0px",
