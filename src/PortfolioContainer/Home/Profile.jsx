@@ -29,7 +29,7 @@ export default function Profile() {
                   </Navbar.Brand>
                   <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
-                    style={{ background: "whitesmoke" }}
+                    style={{ background: "whitesmoke" ,marginRight:"25px"}}
                   />
                   <Navbar.Collapse id="basic-navbar-nav" style={{}}>
                     <Nav className="me-2 mx-auto  my-md-0 mr-md-3">
@@ -63,7 +63,7 @@ export default function Profile() {
               </Navbar>
             </div> 
           </div>
-          <div className="row p-5 " style={{marginTop:"75px",width:"100%"}}>
+          <div className="row p-5 " style={{marginTop:"75px",width:"100%",display:"-webkit-inline-flex"}}>
             <div className="profile-parent col-md-12 mt-0 mb-5 p-5" style={{justifyContent:"center"}}>
               <div className="profile-details">
                 <div className="colz">
