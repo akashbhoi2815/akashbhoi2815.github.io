@@ -11,7 +11,7 @@ export default function AboutMe() {
 
                 <div className='aboutmeTextDiv'>
                     <p className="aboutme">
-                        I have deserve set of skills ranging from HTML, CSS, JavaScript,
+                        I have diverse set of skills ranging from HTML, CSS, JavaScript,
                         ReactJs to ExpressJs, MongoDB, NodeJs</p>
                     <ul> 
                         <li>I have worked on several different projects solo as well as collaboratively</li>

@@ -101,8 +101,8 @@ export default function Profile() {
                       />
                     </h1>
                     <span className="profile-role-tagline">
-                      It's Nice To Meet You. I Design And Code from scratch, And
-                      I Love What I Do.
+                      I'm an Aspiring full-stack developer with a specialization in MERN stack with a passion for learning with an endless supply of optimism and curiosity.
+
                     </span>
                   </span>
                 </div>

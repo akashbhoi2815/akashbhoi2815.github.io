@@ -37,13 +37,14 @@
 }
 .profile-details-name{
     font-size: 56px;
-
 }
 .profile-details-role{
     
     display: flex;
     flex-direction: column;
-    margin: 14px 0px 24px 0px;
+    padding-left: 36px;
+    padding-right: 47px;
+    margin: 0px 15px 15px 0px
 }
 .profile-details-name {
     font-weight: bold;
@@ -62,6 +63,7 @@
 .profile-role-tagline{
     font-size: 19px;
     margin: 5px 0 0 0;
+    
 }
 .profile-option{
     justify-content: center;
@@ -85,9 +87,9 @@
     justify-content: center;
     box-shadow: 0 1px 0px 0px #52575D;
     border-radius: 50%;
-    height: 390px;
-    width: 390px;
-    margin: 0 0 0 20%;
+    height: 329px;
+    width: 440px;
+    margin: 0 0 0 5%;
 }
 .profile-picture-background{
     height: 92%;
@@ -231,11 +233,13 @@
                 padding: 0px;
                 position: fixed;
                 z-index: 100;
-                top:0;
-                
-                
+                top:0;     
                 
      }
+     .profile-details-role{
+        width: 90vw;
+        margin: auto;
+    }
 }
 @media screen and (max-width:375px) {
     .profile-picture{
@@ -261,6 +265,10 @@
     }
     .typicalText{
         font-size: 20px;
+    }
+    .profile-details-role{
+        width: 90vw;
+        margin: auto;
     }
   
 }
