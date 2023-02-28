@@ -50,7 +50,7 @@ export default function Profile() {
                       </Nav.Link>
                       <Nav.Link href="#resume">
                        
-                          <a href="Akash_Bhoi_Resume.pdf" download="Akash_Bhoi_Resume.pdf" className="a-tag">
+                          <a href="https://drive.google.com/file/d/1IwtwNC5EhqGGbUFDdtzXqAjjBT1VlXYo/view?usp=sharing" download="Akash_Bhoi_Resume.pdf" className="a-tag">
                           <p className="menu-content">
                             RESUME
                               </p>

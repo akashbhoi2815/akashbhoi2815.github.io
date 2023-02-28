@@ -28,7 +28,7 @@ export default function AboutMe() {
                     </div>
                     <div className='aboutBtnDiv'>
                         {/* <button className='hireMeBtn'>Hire Me</button> */}
-                        <a href="Akash_Bhoi_Resume.pdf" download='Akash_Bhoi_Resume.pdf'>
+                        <a href="https://drive.google.com/file/d/1IwtwNC5EhqGGbUFDdtzXqAjjBT1VlXYo/view?usp=sharing" download='Akash_Bhoi_Resume.pdf'>
                             <button className="getBtn">Get Resume</button>
                         </a>
                     </div>
